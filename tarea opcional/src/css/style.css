@@ -1,0 +1,219 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: rgb(3, 6, 36);
+    
+
+
+}
+header{
+    position: fixed;
+    background-color: rgb(4, 8, 54);
+    opacity: 0.8;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    height: 500px;
+    justify-content: space-around;
+    top: 0;
+    
+    
+    
+}
+
+header *{
+    color:white;
+    font-size: 90px;
+
+}
+h3{
+    left: 20px;
+    position: relative;
+}
+nav a{
+    padding: 10px;
+
+}
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 70px;
+}
+header nav{
+    margin-left: 50%;
+    display: flex;
+    justify-content: space-between;
+    width: 24%;
+     
+}
+main{
+    position: relative;
+    top: 700px;
+    margin-left: 400px;
+}
+.imagenes{
+    border-radius: 15px;
+    width: 100%;
+    height:1360px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    top: 400px;
+
+
+}
+.imagenes img{
+    width: 33.3333333333%;
+    border-radius: 270px;
+    height: 180px; 
+    position: absolute;
+    left: 2000px;
+
+    
+      
+}
+.imagenes ul{
+    position: absolute;
+    right: 3000px;
+
+
+}
+main img{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+ h2{
+    text-align: center;
+    color: aqua;
+    font-size:220px;
+
+}
+main section{
+    height: 3600px;
+    position: relative;
+    margin-top: 360px;
+
+    
+}
+.quiensoy{
+    margin-top: 0px;
+    height:2000px ;
+
+}
+
+
+
+
+.primerp{
+    
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+main p,li{
+    color: white;
+    font-size: 170px;
+}
+
+.queHago ul{
+    position: absolute;
+    left: 3000px;
+    margin-right: 300px;
+    top: 600px;
+}
+.queHago img{
+    position: absolute;
+    top: 1100px;
+    width: 80px;
+    height: 80px;
+
+
+}
+main h1{
+    text-align: center;
+    color: rgb(169, 18, 220);
+    opacity: 0.8;
+    font-size:220px;
+
+
+}
+footer{
+    position: relative;
+    top: 2000px; ;
+    height: 3200px;
+    background-color: rgb(4, 8, 54);
+    margin-top: 2000px;
+    
+
+}
+.tecnologias{
+    margin-top: 600px;
+    height: 2000px;
+
+
+}
+.tecnologias2{
+    top: 0px;
+    margin-top: 0px;
+    height: 2000px;
+
+
+}
+.conocimiento section{
+    position: relative;
+
+}
+.tecnologias ul{
+    right: 2500px;
+    top:100px;
+    
+}
+.tecnologias img{
+    top:300px;
+    left: 10000px;
+}
+.tecnologias2 ul{
+    right: 2720px;
+    top:100px;
+    
+}
+.tecnologias2 img{
+    top:300px;
+    left: 10000px;
+}
+
+img:first-of-type{
+    position: absolute;
+    width: 2000px;
+    height: 1100px;
+    left: 600px;
+}
+
+main h3{
+    color: chartreuse;
+    font-size: 130px;
+    position: absolute;
+    left: 20%;    
+    
+    
+}
+footer section{
+    height: 100;
+    position: absolute;
+    top: 180px;
+    width: 100%;
+}
+footer section ul{
+    position: absolute;
+    left: 600px;
+    top: 800px;
+
+}
+
+
